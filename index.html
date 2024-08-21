@@ -1,0 +1,166 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heard">
+            <h2>Create Account</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label>Username</label>
+                <input type="text" placeholder="Username" id="UserName">
+                <i class="fa-solid fa-circle-check"></i> 
+                <i class="fa-solid fa-exclamation-check"></i>
+            </div>
+            <div class="form-control">
+                <label>Age</label>
+                <input type="age" placeholder="ff@gamil.com" id="age">
+                <i class="fa-solid fa-circle-check"></i> 
+                <i class="fa-solid fa-exclamation-check"></i>
+            </div>
+            <div class="form-control">
+                <label>Email</label>
+                <input type="email" placeholder="ff@gamil.com" id="email">
+                <i class="fa-solid fa-circle-check"></i> 
+                <i class="fa-solid fa-exclamation-check"></i>
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" placeholder="password" id="password">
+                <i class="fa-solid fa-circle-check"></i> 
+                <i class="fa-solid fa-exclamation-check"></i>
+            </div>
+            <div class="form-control">
+                <label>Confirm Password</label>
+                <input type="password" placeholder="Confirm password" id="password2">
+                <i class="fa-solid fa-circle-check"></i> 
+                <i class="fa-solid fa-exclamation-check"></i>
+            </div>
+            <button onclick="regist()">SUBMIT</button>    
+            
+
+        </form>
+    </div>
+   
+    
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Here</title>    
+  </head>
+  <body id="bod">
+    <main>
+      <section id="sec">
+        <div id="div00">
+         
+          <div id="div">
+            <div id="div1">
+              <div id="div0">
+                <h1>Register Here</h1>
+              </div>
+              <div>
+                <input id="nam" type="text" placeholder="Name" required />
+              </div>
+              <div>
+                <input id="age" type="number" placeholder="Age" required />
+              </div>
+              <div>
+                <input id="mail" type="email" placeholder="Email id" required />
+              </div>
+              <div>
+                <input
+                  id="npass"
+                  type="password"
+                  placeholder="New Password"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  id="cpass"
+                  type="password"
+                  placeholder="Confirm Password"
+                  required
+                />
+              </div>
+              <div><button id="but" onclick="regist()">Register</button></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./course.js"></script>
+  </body>
+  <style>
+   #div{
+   
+    margin-left: 40%;
+   }
+
+
+    #div01 {
+      display: flex;
+      flex-direction: column;
+      
+    }
+    #div01 h1 {
+      font-size: 30px;
+      font-family: "Play", sans-serif;
+    }
+    #div {
+      background-color: rgba(89, 60, 219, 0.179);
+      width: 300px;
+      margin-right: 160px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    #div0 h1 {
+      font-family: "Playwrite CL", cursive;
+      color: rgb(252, 252, 252);
+      margin-left: 60px;
+    }
+    #div1 input {
+      margin-top: 20px;
+      margin-left: 25px;
+      height: 35px;
+      width: 250px;
+      border-radius: px;
+      background-color: rgb(255, 255, 255);
+      border: none;
+    }
+  
+    ::placeholder {
+      color: black;
+      font-family: "Lobster", sans-serif;
+      font-size: 18px;
+    }
+    #div1 button {
+      margin-top: 25px;
+      margin-left: 100px;
+      height: 35px;
+      width: 100px;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      font-family: "Lobster", sans-serif;
+      font-size: 20px;
+      border: none;
+    }
+    
+    #bod {
+      background-image: url(./♥.gif);
+      background-size: 80%;
+    }
+  </style>
+</html>
